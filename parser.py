@@ -57,6 +57,6 @@ if __name__ == "__main__":
     print("parsing is done!")
 
     df.columns = columns
-    df.to_csv('data/ellection_data.csv', sep='\t', encoding='utf-8')
+    df.to_csv('data/election_data.csv', sep='\t', encoding='utf-8')
 
     print("data is saved")
